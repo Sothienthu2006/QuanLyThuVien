@@ -8,26 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyThuVien
+namespace ThemSach
 {
-    public partial class US_mainmenu : UserControl
+    public partial class FrmThemSach : Form
     {
-        public US_mainmenu()
+        public FrmThemSach()
         {
             InitializeComponent();
         }
 
-        private void guna2Panel4_Paint(object sender, PaintEventArgs e)
+        private void txtNXB_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void US_mainmenu_Load(object sender, EventArgs e)
+        private void FrmThemSach_Load(object sender, EventArgs e)
         {
 
         }

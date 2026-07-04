@@ -24,7 +24,7 @@ namespace QuanLyThuVien
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+      
         }
 
         private void guna2Button5_Click(object sender, EventArgs e)
@@ -60,6 +60,27 @@ namespace QuanLyThuVien
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void guna2Panel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnBook_Click(object sender, EventArgs e)
+        {
+           QuanLySach.qls f = new QuanLySach.qls();
+            f.Show();
+        }
+
+        private void btnReader_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTag_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }
