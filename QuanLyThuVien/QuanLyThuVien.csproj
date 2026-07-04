@@ -66,13 +66,45 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDocGia.Designer.cs" />
+    <Compile Include="FormDocGia1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormDocGia.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FormLapPhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLapPhieuMuon.Designer.cs" />
+    <Compile Include="FormMuonTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMuonTra.Designer.cs" />
+    <Compile Include="FormThemDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormThemDocGia.Designer.cs" />
+    <Compile Include="FormThemDocGia1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FormThemDocGia.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemSach.Designer.cs">
+      <DependentUpon>ThemSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="US_mainmenu.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Quanlysach.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="US_mainmenu.Designer.cs">
-      <DependentUpon>US_mainmenu.cs</DependentUpon>
+    <Compile Include="Quanlysach.Designer.cs">
+      <DependentUpon>Quanlysach.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="..\..\THIÊN ĐƯỜNG KHẨU\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -80,6 +112,17 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDocGia.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormDocGia1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMuonTra.resx">
+      <DependentUpon>FormMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormThemDocGia.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>FormThemDocGia1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -90,8 +133,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="US_mainmenu.resx">
-      <DependentUpon>US_mainmenu.cs</DependentUpon>
+    <EmbeddedResource Include="Quanlysach.resx">
+      <DependentUpon>Quanlysach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemSach.resx">
+      <DependentUpon>ThemSach.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
