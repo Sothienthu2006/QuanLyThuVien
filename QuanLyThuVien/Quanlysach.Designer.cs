@@ -61,11 +61,10 @@
             this.QuanLySach.Controls.Add(this.pnlTable);
             this.QuanLySach.Controls.Add(this.pnlSearch);
             this.QuanLySach.Controls.Add(this.pnlHeader);
-            this.QuanLySach.Dock = System.Windows.Forms.DockStyle.Fill;
             this.QuanLySach.Location = new System.Drawing.Point(0, 0);
             this.QuanLySach.Name = "QuanLySach";
             this.QuanLySach.Padding = new System.Windows.Forms.Padding(30, 20, 30, 20);
-            this.QuanLySach.Size = new System.Drawing.Size(978, 562);
+            this.QuanLySach.Size = new System.Drawing.Size(973, 562);
             this.QuanLySach.TabIndex = 0;
             this.QuanLySach.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMain_Paint);
             // 
@@ -75,7 +74,7 @@
             this.pnlTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlTable.Location = new System.Drawing.Point(30, 181);
             this.pnlTable.Name = "pnlTable";
-            this.pnlTable.Size = new System.Drawing.Size(918, 361);
+            this.pnlTable.Size = new System.Drawing.Size(913, 361);
             this.pnlTable.TabIndex = 2;
             // 
             // ptnMain
@@ -99,7 +98,7 @@
             this.ptnMain.RowHeadersWidth = 62;
             this.ptnMain.RowTemplate.Height = 28;
             this.ptnMain.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.ptnMain.Size = new System.Drawing.Size(918, 361);
+            this.ptnMain.Size = new System.Drawing.Size(913, 361);
             this.ptnMain.TabIndex = 0;
             // 
             // colMaSach
@@ -173,7 +172,7 @@
             this.pnlSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlSearch.Location = new System.Drawing.Point(30, 123);
             this.pnlSearch.Name = "pnlSearch";
-            this.pnlSearch.Size = new System.Drawing.Size(918, 58);
+            this.pnlSearch.Size = new System.Drawing.Size(913, 58);
             this.pnlSearch.TabIndex = 1;
             // 
             // pictureBox1
@@ -192,7 +191,7 @@
             this.txtSearch.ForeColor = System.Drawing.Color.Black;
             this.txtSearch.Location = new System.Drawing.Point(35, 10);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(880, 23);
+            this.txtSearch.Size = new System.Drawing.Size(880, 27);
             this.txtSearch.TabIndex = 0;
             // 
             // pnlHeader
@@ -203,7 +202,7 @@
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(30, 20);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(918, 103);
+            this.pnlHeader.Size = new System.Drawing.Size(913, 103);
             this.pnlHeader.TabIndex = 0;
             // 
             // btnThemSach
@@ -225,13 +224,13 @@
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(19, 11);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(161, 32);
+            this.lblTitle.Size = new System.Drawing.Size(199, 41);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Quản lý Sách";
             // 
             // qls
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 562);
             this.Controls.Add(this.QuanLySach);
